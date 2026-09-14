@@ -1,0 +1,22 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+
+# Python runtime output
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Frontend dependencies and browser-run artifacts
+frontend/node_modules/
+frontend/.playwright-cli/
+
+# Local PostgreSQL data and portable runtime
+pgdata/
+pgenv/
